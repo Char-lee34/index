@@ -1,0 +1,125 @@
+* {
+    outline: 1px solid #def;
+}
+
+body, html {
+    /* m0 */
+    margin: 0;
+    /* p0 */
+    padding: 0;
+
+    /* w100p */
+    width: 100%;
+    /* h100p */
+    height: 100%;
+}
+
+#cabecera-principal {
+    /* df */
+    display: flex;
+    /* jcsb */
+    justify-content: space-between;
+}
+
+#cabecera-principal > * {
+    /* df */
+    display: flex;
+    /* aic */
+    align-items: center;
+}
+
+
+
+.contenedor {
+    /* w100p */
+    width: 100%;
+    /* min-h */
+    min-height: 70vh;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    /* gtc */
+    grid-template-columns: 1fr 3fr;
+
+}
+
+
+
+#categorias nav {
+    /* df */
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+main > section {
+
+    min-height: 400px;
+
+    /* Temporalmente: */
+    /* df */
+    display: flex;
+    /* jcc */
+    justify-content: center;
+    /* aic */
+    align-items: center;
+
+}
+
+
+#pie-principal {
+    /* p64 */
+    padding: 64px;
+
+}
+
+
+
+/* Reglas para el contenido */
+
+img {
+    /* w100p */
+    width: 100%;
+    /* h100p */
+    height: 100%;
+}
+
+
+#portada {
+    /* posr */
+    position: relative;
+}
+
+#portada > * {
+    /* posa */
+    position: absolute;
+    /* t0 */
+    top: 0;
+    /* l0 */
+    left: 0;
+}
+
+#portada h1 {
+    /* zi0 */
+    z-index: 0;
+    /* m0 */
+    margin: 0;
+    
+    /* w100p */
+    width: 100%;
+    /* h100p */
+    height: 100%;
+    /* df */
+    display: flex;
+    /* jcc */
+    justify-content: center;
+    /* aic */
+    align-items: center;
+}
+
+#portada img {
+    /* zi-1 */
+    z-index: -1;
+}
